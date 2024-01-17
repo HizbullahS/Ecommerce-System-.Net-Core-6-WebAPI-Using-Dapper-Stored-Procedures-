@@ -1,5 +1,5 @@
 ﻿using CoreWebapi.Models;
-using CoreWebapi.Services;
+using EcommerceAPI_StoredProcedures_.Services.Products;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreWebapi.Controllers

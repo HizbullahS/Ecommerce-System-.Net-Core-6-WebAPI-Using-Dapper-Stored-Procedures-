@@ -1,8 +1,4 @@
 ﻿using EcommerceAPI_StoredProcedures_.Models;
-using Microsoft.AspNetCore.Mvc;
-
-namespace EcommerceAPI_StoredProcedures_.Services
-{
     public interface ICustomerService
     {
         public Task<List<Customers>> GetCustomers();
@@ -11,4 +7,3 @@ namespace EcommerceAPI_StoredProcedures_.Services
         public Task<int> UpdateCustomer(Customers customer);
         public Task<int> DeleteCustomer(int CustomerId);
     }
-}

@@ -1,7 +1,6 @@
 ﻿using CoreWebapi.Models;
-using Microsoft.AspNetCore.Mvc;
 
-namespace CoreWebapi.Services
+namespace EcommerceAPI_StoredProcedures_.Services.Products
 {
     public interface IProductService
     {

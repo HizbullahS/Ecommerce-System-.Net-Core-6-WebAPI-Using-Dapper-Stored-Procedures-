@@ -1,5 +1,4 @@
 ﻿using EcommerceAPI_StoredProcedures_.Models;
-using EcommerceAPI_StoredProcedures_.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -85,7 +84,6 @@ namespace EcommerceAPI_StoredProcedures_.Controllers
 
         ///////////////////////////////////////////// DELETE ////////////////////////////////////
         [HttpDelete("Delete Customer")]
-
         public async Task<IActionResult> DeleteCustomer(int Id)
         {
             try

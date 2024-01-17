@@ -1,9 +1,10 @@
 ﻿using CoreWebapi.Models;
+using CoreWebapi.Services;
 using Dapper;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace CoreWebapi.Services
+namespace EcommerceAPI_StoredProcedures_.Services.Products
 {
     public class ProductService : IProductService
     {
